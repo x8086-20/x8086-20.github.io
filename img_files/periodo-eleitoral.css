@@ -1,0 +1,411 @@
+/* Theme: Governo do Estado de SP
+   Author: CDN 
+   version 23.05.22
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+* { 
+  font-family: 'Open Sans', sans-serif, arial;
+  color: #464646;
+  font-size: 16px;
+}
+
+body {
+    background: #FFFFFF;
+    overflow-x: hidden;
+}
+
+ div {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  background: #ffffff;
+  background-color: #FFFFFF;
+}
+
+
+
+.principal-eleitoral .container,
+body .container {
+  width: 100%;
+  max-width: 1280px;
+  min-width: 250px;
+  padding: 15px;
+}
+
+/* header */
+section#govsph-topo { 
+  background: #e7e7e7!important;
+  min-height: 155px;
+  border-bottom: 4px solid #4e4e4e;
+  font-family: 'Open Sans', sans-serif, arial;
+  font-size: 16px;
+  font-weight: 600;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.legislacao, .box-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box-logo, .box-logo p {
+  flex-wrap: wrap;
+  padding: 8px 0 6px 0;
+  margin: 0;
+  font-size: 15px;
+  color: #464646;
+  font-family: 'Open Sans', sans-serif, arial;
+  font-weight: 500;
+}
+
+.box-logo {
+  justify-content: right;
+}
+
+
+/* main */
+.btn-model {
+  width: 202px;
+  min-height: 35px;
+  font-family: 'Open Sans', sans-serif, arial;
+  font-size: 16px;
+  color: #FFFFFF!important;
+  padding: 4px 35px;
+  border-radius: 20px;
+  border: 0;
+  background: #243e63;
+  transition: background ease .2s;
+}
+.btn-model:hover {
+  color: #FFFFFF!important;
+  background: #464646;
+}
+
+.titles-services {
+  color: #dd2626;
+  font-size: 20px;
+  font-weight: 700;
+  background: #FFFFFF;
+  font-family: 'Open Sans', sans-serif, arial;
+  padding: 10px 20px;
+}
+
+
+
+/* servicos-secretaria */
+section#servicos-secretaria {
+  background: #f2f2f2!important;
+  border-top: 2px solid #e0e0e0;
+  border-bottom: 2px solid #e0e0e0;
+  margin-top: 46px;
+  padding: 36px 20px;
+  font-size: 16px;
+}
+
+section#servicos-secretaria .servicos-menu {
+ display: flex;
+ justify-content: start;
+ flex-wrap: wrap;
+}
+
+
+.servicos-menu p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 4px;
+}
+
+.servicos-menu p.col-12.col-sm-4 {
+  text-align: left;
+  padding-left: 70px;
+}
+
+.servicos-menu p a {
+  text-decoration: none;
+  color: #464646;
+  transition: padding ease .2s;
+  font-size: 16px;
+}
+
+.servicos-menu p a:hover {
+  padding-left: 20px;
+}
+
+
+
+
+/* Telefones */
+
+section#telefones-uteis {
+  margin-top: 62px;
+  background: #FFFFFF!important;
+  background-color: #FFFFFF!important;
+  font-size: 16px;
+}
+
+section#telefones-uteis h2.titles-services {
+  position: absolute;
+  font-size: 20px;
+  top: -25px;
+  left: 30px;
+}
+
+section#telefones-uteis .servicos-menu {
+  position: relative;
+  border-radius: 12px;
+  border: 1px solid #464646;
+  padding: 35px;
+
+  -webkit-column-count:4;
+  -moz-column-count:4;
+  column-count:4; 
+  column-gap: 15px;
+  column-rule: 1px double #464646;
+}
+
+section#telefones-uteis .botao-servicos {
+  color: #FFFFFF!important;
+  position: absolute;
+  bottom: -20px;
+  left: calc(50% - 102px);
+  margin: 0 auto;
+  font-size: 16px;
+} 
+
+
+section#telefones-uteis .servicos-menu p {
+  margin: 0 auto;
+  padding: 6px;
+  font-size: 16px;
+}
+
+section#telefones-uteis .servicos-menu p span {
+  font-weight: 800!important;
+ font-size: 16px;
+}
+
+
+
+
+
+/* servicos governo */
+
+section#servicos-governo {
+  background: #FFFFFF!important;
+  background-color: #FFFFFF!important;
+  margin-top: 80px;
+}
+
+section#servicos-governo h2.titles-services {
+  position: absolute;
+  top: -25px;
+  left: 30px;
+}
+
+section#servicos-governo .servicos-menu {
+  position: relative;
+  border-radius: 12px;
+  border: 1px solid #464646;
+  padding: 36px 0;  
+  background: linear-gradient(180deg, #FFFFFF 50%, #f2f2f2 50%);
+}
+
+section#servicos-governo .botao-servicos {
+  margin: 0 auto;
+  text-align: center;
+  color: #FFFFFF!important;
+  font-size: 16px;
+}
+
+section#servicos-governo .botao-servicos .btn-model {
+  margin-bottom: -80px;
+  color: #FFFFFF!important;
+  font-size: 16px;
+}
+
+section#servicos-governo .servicos-menu p {
+   padding: 15px 0;
+   margin: 0;
+   font-size: 16px;
+}
+
+section#servicos-governo .servicos-menu .box-telefones {
+   padding: 0;
+   border-right: 1px solid #cccccc;
+}
+
+section#servicos-governo .servicos-menu .box-telefones p {
+  padding-left: 70px;
+  text-align: left;
+  font-size: 16px;
+}
+
+section#servicos-governo .servicos-menu .box-telefones.last {
+   border-right: 0;
+}
+
+section#servicos-governo .servicos-menu a {
+  text-decoration: none;
+  color: #464646;
+  font-size: 16px;
+}
+
+section#servicos-governo .servicos-menu span {
+  font-weight: 700!important;
+  font-size: 16px;
+}
+
+section#servicos-governo .servicos-menu p a:hover {
+  padding-left: 26px;
+  transition: padding ease .2s;
+  font-size: 16px;
+}
+
+section#servicos-governo .servicos-menu p:nth-child(odd) {
+  background: #f2f2f2;
+}
+
+section#servicos-governo .servicos-menu p:nth-child(even) {
+  background: #ffffff;
+}
+
+section#servicos-governo .row.linha-botoes {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  margin-top: 80px;
+}
+
+section#servicos-governo .linha-botoes > div {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* footer */
+section#govsp-rodape {
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  min-height: 149px;
+  width: 100%;
+  background: #4e4e4e;
+  margin-top: 60px;
+}
+
+section#govsp-rodape div {
+  text-align: center;
+}
+
+
+
+@media (max-width:768px) {
+  .legislacao, .box-logo {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .legislacao br {
+    display: none;
+  }
+
+   /* telefones */
+   section#telefones-uteis .servicos-menu {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    column-gap: 10px;
+    column-rule: 1px solid #464646;
+  }
+
+  section#telefones-uteis .servicos-menu p:nth-child(even) {
+    border-bottom: 1px solid #464646;
+  }
+
+  section#telefones-uteis .servicos-menu{
+    padding: 30px 10px;
+  }
+
+  section#telefones-uteis .servicos-menu p {
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 110px;
+    padding: 10px;
+    }
+
+
+  /* servicos secretaria  */
+  section#servicos-secretaria .servicos-menu {
+    -webkit-column-count:1;
+    -moz-column-count:1;
+    column-count:0;
+  }
+
+
+  /* servicos governo */
+    section#servicos-governo .servicos-menu .box-telefones {
+      border-right: 0;
+    }
+
+    section#servicos-governo .row.linha-botoes {
+      padding: 5px;
+      margin-top: 70px;
+    }
+    
+    .linha-botoes > div {
+      padding: 20px 0;
+    }
+    .linha-botoes .btn-model {
+      width: 100%;
+    }
+
+    section#servicos-governo .servicos-menu .box-telefones p,
+    .servicos-menu p.col-12.col-sm-4 {
+      padding-left: 40px;
+    }
+}
+
+
+@media (max-width:450px) {
+  
+  /* servicos */
+  section#servicos-governo .servicos-menu {
+     -webkit-column-count:1;
+     -moz-column-count:1;
+     column-count:1; 
+     column-gap: 0;
+     column-rule: none;
+   }
+
+   section#servicos-governo .botao-servicos ,
+   section#telefones-uteis .botao-servicos {
+    left: calc(50% - 126px);
+  }
+
+   section#govsp-rodape {
+    margin-top: 45px;
+    }
+
+    .btn-model {
+      width: 250px;
+    }
+  }

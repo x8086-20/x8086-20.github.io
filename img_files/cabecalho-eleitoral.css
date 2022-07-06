@@ -1,0 +1,104 @@
+/* Theme: Governo do Estado de SP
+   Author: CDN 
+   version 23.05.22
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+/* header */
+section#govsph-topo {
+  max-width: 100vw;
+  background: #e7e7e7!important;
+  background-color: #e7e7e7!important;
+  min-height: 155px;
+  border-bottom: 4px solid #4e4e4e;
+  font-family: 'Open Sans', sans-serif, arial;
+  font-weight: 600;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999999;
+}
+
+section#govsph-topo div {
+  padding: 0;
+}
+
+
+section#govsph-topo .container {
+   width: 100%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+}
+
+ section#govsph-topo .box-logo {
+   display: flex;
+   flex-direction: column;
+    width: 16%;
+    max-width: 250px;
+ }
+
+ section#govsph-topo .legislacao {
+  width: 84%;
+ }
+
+section#govsph-topo .legislacao, 
+section#govsph-topo .box-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+section#govsph-topo .legislacao p {
+  font-size: 16px!important;
+  color: #464646;
+  font-family: 'Open Sans', sans-serif, arial;
+  font-weight: 500;
+}
+
+section#govsph-topo .box-logo, 
+section#govsph-topo .box-logo p {
+  flex-wrap: wrap;
+  padding: 8px 0 6px 0;
+  margin: 0;
+  font-size: 14px!important;
+  color: #464646;
+  font-family: 'Open Sans', sans-serif, arial;
+  font-weight: 500;
+}
+
+section#govsph-topo .box-logo {
+  justify-content: right;
+}
+
+
+@media screen and (max-width: 780px) {
+
+section#govsph-topo .container {
+    flex-direction: column!important;
+    flex-wrap: wrap;
+ }
+
+section#govsph-topo .box-logo {
+    width: 100%!important;
+    max-width: 100%;
+ }
+
+ section#govsph-topo .legislacao {
+  width: 100%!important;
+  max-width: 100%;
+ }
+
+  section#govsph-topo .legislacao,
+  section#govsph-topo .box-logo {
+    justify-content: center;
+    align-items: center;
+  }
+
+  section#govsph-topo .legislacao br {
+    display: none;
+  }  
+}
